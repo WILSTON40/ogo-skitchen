@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to CyberSeal’s</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="/assets/Images/hacker.png" type="image/x-icon">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- swiper css --> 
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="/assets/Css/style.css">
+</head>
+<body>
+    <!-- navbar -->
+    <nav id="navbar">
+        <a href="/index.html" class="logo">Cyber<span>seals</span></a>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="Login.html">Login</a></li>
+            <li><a href="Register.html">Register</a></li>
+        </ul>
+        <button class="btn">Get in touch</button> 
+    </nav>
+    <hr>
+ 
+    <!-- slider -->
+    <section id="slider">
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="/assets/Images/cybersecurity2.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="/assets/Images/cyber-security-strategy.jpeg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="/assets/Images/cybersecurity3.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="/assets/Images/cybersecurity1.jpg" alt="">
+            </div>
+            
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+     <!-- sponsors -->
+     <section id="sponsors">
+      <h3>Our Sponsors</h3>
+      <p><b>We are internationally recognized for what we do.</b></p>
+      <div class="container">
+          <div class="sponsors">
+              <img src="/assets/Images/amazon.png" alt="">
+              <img src="/assets/Images/Emirates.jpg" alt="">
+              <img src="/assets/Images/amazon.png" alt="">
+              <img src="/assets/Images/Emirates.jpg" alt="">
+          </div>
+      </div>
+  </section>
+
+  <!-- courses -->
+  <section id="courses">
+    <h3>Our services</h3>
+    <p><b>We provide the best security, staying visually protected is a priority.</b></p>
+
+    <div class="container grid">
+        <div class="col card">
+            <span class="icon"><i class="fa fa-lock"></i></span>
+            <h5>Cyber security</h5>
+            <p>Cybersecurity is the protection of internet-connected systems such as hardware, software and data from cyber threats. The practice is used by individuals and enterprises to protect against unauthorized access to data centers and other computerized systems.</p>
+            <span class="start">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </span>
+            <div class="rating">
+                4.5
+            </div>
+        </div>
+        <div class="col card">
+          <span class="icon"><i class="fa fa-book"></i></span>
+          <h5>Cyber Security Awareness Training</h5>
+          <p>Regular security awareness training will help employees do their part in keeping their company safe from cyber threats and vulnerabilities usually transmitted through their Laptops and mobile Phones.</p>
+          <span class="start">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+          </span>
+          <div class="rating">
+              4.5
+          </div>
+      </div>
+      <div class="col card">
+        <span class="icon"><i class="fa fa-warning"></i></span>
+        <h5>Cyber Supply chain attacks and Third Party risks</h5>
+        <p>Organizations must address third-party risk in the supply chain and reduce software supply issues, by using software bills of materials to maintain Utmost security between all Internal and external users with access to their networks.</p>
+        <span class="start">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+        </span>
+        <div class="rating">
+            4.5
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+</body>
+</html>
